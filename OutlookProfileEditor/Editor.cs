@@ -13,9 +13,10 @@ namespace OutlookProfileEditor
 {
     public partial class Editor : Form
     {
-        private static string OFFICE_VERSION = "15.0";
+        //private static string OFFICE_VERSION = "15.0";
+        private static string OFFICE_VERSION = "16.0";
         private static string SUBKEY_PATH = @"Software\Microsoft\Office\" + OFFICE_VERSION + @"\Outlook";
-        private static string GITHUB_REPO = "https://github.com/sjkingo/OutlookProfileEditor";
+        private static string GITHUB_REPO = "https://github.com/ssebs/OutlookProfileEditor";
 
         public Editor()
         {
